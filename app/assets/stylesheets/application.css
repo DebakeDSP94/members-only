@@ -13,3 +13,112 @@
  *= require_tree .
  *= require_self
  */
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: rgb(28, 81, 188);
+	height: 40px;
+}
+
+.nav-left,
+.nav-right {
+	font-size: 1.3rem;
+	width: 300px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+}
+
+#posts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.form {
+	width: 100%;
+}
+.post-card {
+	width: 60%;
+	background-color: rgb(197, 213, 233);
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 20px;
+	box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	font-size: 1.3rem;
+}
+
+.post-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.post-form {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(197, 213, 233);
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 20px;
+	box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	font-size: 1.3rem;
+}
+
+.post-field {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.links {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.members {
+	position: absolute;
+	top: 200px;
+}
+
+.enter-btn {
+	width: 100%;
+	background-color: rgb(28, 81, 188);
+	color: white;
+	height: 20px;
+	border-radius: 4px;
+}
+
+.foot {
+	position: fixed;
+	bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.enter-link {
+	color: white;
+}
